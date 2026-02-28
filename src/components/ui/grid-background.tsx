@@ -1,6 +1,6 @@
 export function GridBackground({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-h-screen w-full bg-background relative flex items-center justify-center overflow-hidden pt-20">
+    <div className="min-h-[80vh] sm:min-h-screen w-full bg-background relative flex items-center justify-center overflow-hidden pt-24 sm:pt-20 pb-12 sm:pb-0">
       {/* Grid Pattern */}
       <div
         className="absolute inset-0 z-0"
