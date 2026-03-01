@@ -42,7 +42,7 @@ export default function Home() {
 
           <h2 className="text-4xl sm:text-6xl md:text-8xl font-black text-foreground tracking-tighter mb-6 sm:mb-8 leading-[0.9]">
             HERRAMIENTAS DE <span className="text-primary">IA</span> <br />
-            PARA EL SDLC.
+            PARA EL SDLC
           </h2>
 
           <p className="text-base sm:text-lg md:text-xl text-foreground/50 max-w-2xl mx-auto mb-8 sm:mb-12 leading-relaxed font-medium px-2">
@@ -52,16 +52,18 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 px-4 sm:px-0">
             <a
-              href="#requisitos"
+              href="#catalogo"
               className="px-8 sm:px-10 py-3.5 sm:py-4 bg-primary text-primary-foreground rounded-full font-black text-[11px] uppercase tracking-widest hover:bg-foreground hover:text-background transition-all text-center"
             >
-              Explorar SDLC
+              Ver Herramientas
             </a>
             <a
-              href="#catalogo"
+              href="https://disc.cl"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 sm:px-10 py-3.5 sm:py-4 glass text-foreground rounded-full font-black text-[11px] uppercase tracking-widest hover:bg-foreground/10 transition-all text-center"
             >
-              Ver Herramientas
+              Conocer DISC
             </a>
           </div>
         </div>

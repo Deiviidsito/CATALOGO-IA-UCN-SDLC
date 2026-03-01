@@ -81,12 +81,6 @@ export function Navbar() {
           >
             {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
           </button>
-          <a
-            href="#catalogo"
-            className="hidden sm:inline-flex rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition-all text-xs font-bold px-5 h-9 items-center"
-          >
-            Explorar
-          </a>
           {/* Mobile hamburger */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
